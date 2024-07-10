@@ -1,22 +1,22 @@
 #!/bin/bash
 
 #----------------Break----------------------------------
-for ((i=1 ; i<=10 ; i++))
-do
-    if [ $i -gt 5 ]
-    then
-        break
-    fi
-    echo "$i"
-done
+#for ((i=1 ; i<=10 ; i++))
+#do
+#    if [ $i -gt 5 ]
+#    then
+#        break
+#    fi
+#    echo "$i"
+#done
 
 #------------------Continue----------------------
 
-for ((j=10 ; j<=20 ; j++))
+for ((j=1 ; j<=10 ; j++))
 do
-    if [ $j -eq 15 -o $i -eq 16 ]
+    if [ $j -eq 5 -o $j -eq 6 ]
     then
-        break
+        Continue
     fi
     echo "$j"
 done

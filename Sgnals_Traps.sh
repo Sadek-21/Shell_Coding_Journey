@@ -24,3 +24,7 @@ echo "Hello World"
 exit 0
 
 com
+
+# to know what the bag that you have in ur scribt we use bash +x ./name_file.sh
+
+#or we can use after #!/bin/bash -x 

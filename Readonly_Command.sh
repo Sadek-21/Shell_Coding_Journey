@@ -18,3 +18,6 @@ readonly -f hello
 hello(){
     echo "Hello world again"
 }
+
+
+readonly -f # it show us the list of read only we can add -p or -f
